@@ -1,1 +1,2 @@
-export * from './lib/gundam-ui';
+export * from './lib/font';
+export * from './global-style';

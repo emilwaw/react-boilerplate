@@ -1,4 +1,4 @@
-import { StoryFn, Meta } from '@storybook/react';
+import { Story, Meta } from '@storybook/react';
 import { Bell, AnimationIterationCount } from './bell';
 
 export default {
@@ -6,7 +6,7 @@ export default {
   title: 'Bell',
 } as Meta;
 
-const Template: StoryFn = (args) => <Bell {...args} />;
+const Template: Story = (args) => <Bell {...args} />;
 
 export const Basic = Template.bind({});
 Basic.args = { size: 256 };
