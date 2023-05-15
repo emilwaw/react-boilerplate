@@ -1,6 +1,7 @@
 const config = {
   stories: ['../src/lib/**/*.stories.@(js|jsx|ts|tsx|mdx)'],
   addons: ['@storybook/addon-essentials'],
+  staticDirs: [{ from: '../../../assets', to: '/' }],
   framework: {
     name: '@storybook/react-vite',
     options: {
