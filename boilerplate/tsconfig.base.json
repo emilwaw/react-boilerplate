@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@boilerplate/blog-api": ["libs/blog-api/src/index.ts"],
       "@boilerplate/gundam-ui": ["libs/gundam-ui/src/index.ts"],
       "@boilerplate/utils": ["libs/utils/src/index.ts"]
     }
