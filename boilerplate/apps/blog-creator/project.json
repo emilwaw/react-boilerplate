@@ -60,7 +60,8 @@
         },
         "production": {
           "buildTarget": "blog-creator:build:production",
-          "hmr": false
+          "hmr": false,
+          "port": 3002
         }
       }
     },
